@@ -7,14 +7,14 @@ It also helps you to send reminder to them.
 
 It uses following concepts of drf
 
-- CRUD using ModelViewSet 
-- login and authentication using [djoser](https://djoser.readthedocs.io/en/latest/) library
-- custom field using djano's case function / conditional expression
-- pagination using custom pagination class overrighting rest framework's LimitOffsetPagination, (drf_prac/pagination.py)
-- filtering  using django-filter and custom filterset
-- functional endpoint using @action decorator
-- nested api using nested mixin , drf-extensions
-- selective fields and related objects using FlexFieldsModelSerializer, drf-flex-fields
+- CRUD using __ModelViewSet__
+- login and authentication using __[djoser](https://djoser.readthedocs.io/en/latest/) library__
+- custom field using __djano's case function / conditional expression__
+- pagination using __custom pagination class overrighting rest framework's LimitOffsetPagination, (drf_prac/pagination.py)__
+- filtering  using __django-filter and custom filterset__
+- functional endpoint using __@action decorator__
+- nested api using __nested mixin , drf-extensions__
+- selective fields and related objects using __FlexFieldsModelSerializer, drf-flex-fields__
 
 
 
